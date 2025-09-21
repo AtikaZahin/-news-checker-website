@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fact-Check Aggregator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fact-Check Aggregator</h1>
+    <p>Paste any claim or headline below, and we’ll check it across trusted fact-checking sites.</p>
+    
+    <textarea id="claimInput" placeholder="Enter your claim here..."></textarea>
+    <button id="checkBtn">Check This Claim</button>
+
+    <div id="loading" class="hidden">🔍 Searching trusted fact-checkers...</div>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
